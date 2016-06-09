@@ -1,0 +1,40 @@
+{
+  "orm": {
+    "adapters": {
+      "disk": "sails-disk",
+      "mongo": "sails-mongo",
+      "postgresql": "sails-postgresql"
+    },
+    "defaultConnection": "default",
+    "connections": {
+      "default": {
+        "adapter": "disk",
+        "filePath": ".tmp/",
+        "fileName": "default.db",
+        "migrate": "safe"
+      },
+      "permanent": {
+        "adapter": "disk",
+        "filePath": "./data/",
+        "fileName": "permanent.db",
+        "migrate": "safe"
+      },
+      "mongo": {
+        "adapter": "mongo",
+        "host": "localhost",
+        "port": 27017,
+        "user": "",
+        "password": "",
+        "database": "qover"
+      },
+      "michaelsilvestre": {
+        "adapter": "postgresql",
+        "host": "localhost",
+        "port": 5432,
+        "user": "",
+        "password": "",
+        "database": "qover"
+      }
+    }
+  }
+}
