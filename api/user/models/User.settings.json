@@ -32,7 +32,7 @@
     },
     "password": {
       "type": "string",
-      "minLength": 6
+      "minLength": 4
     },
     "resetPasswordToken": {
       "type": "string"
@@ -42,16 +42,49 @@
       "via": "users",
       "dominant": true
     },
-    "filesCreated": {
-      "collection": "upload",
-      "via": "createdBy"
+    "products": {
+      "collection": "product",
+      "via": "contributors"
     },
-    "produits": {
-      "collection": "produit",
+    "producttypes": {
+      "collection": "producttype",
+      "via": "contributors"
+    },
+    "productparams": {
+      "collection": "productparam",
+      "via": "contributors"
+    },
+    "producttypedefaultparams": {
+      "collection": "producttypedefaultparam",
+      "via": "contributors"
+    },
+    "tests": {
+      "collection": "test",
+      "via": "contributors"
+    },
+    "productprices": {
+      "collection": "productprice",
       "via": "contributors"
     }
   },
   "autoCreatedAt": true,
   "autoUpdatedAt": true,
-  "migrate": "alter"
+  "migrate": "alter",
+  "templates": {
+    "default": {
+      "attributes": {
+        "username": {
+          "type": "string",
+          "minLength": 3,
+          "unique": true
+        },
+        "email": {
+          "type": "email",
+          "minLength": 6,
+          "unique": true
+        }
+      },
+      "displayedAttribute": "username"
+    }
+  }
 }

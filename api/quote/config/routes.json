@@ -1,0 +1,57 @@
+{
+  "routes": {
+    "GET /quote": {
+      "controller": "Quote",
+      "action": "find",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "GET /quote/:id": {
+      "controller": "Quote",
+      "action": "findOne",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "POST /quote": {
+      "controller": "Quote",
+      "action": "create",
+      "policies": [
+        "isAuthorized",
+        "addDataCreate"
+      ]
+    },
+    "PUT /quote/:id": {
+      "controller": "Quote",
+      "action": "update",
+      "policies": [
+        "isAuthorized",
+        "addDataUpdate"
+      ]
+    },
+    "DELETE /quote/:id": {
+      "controller": "Quote",
+      "action": "destroy",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "POST /quote/:parentId/:relation": {
+      "controller": "Quote",
+      "action": "add",
+      "policies": [
+        "isAuthorized",
+        "addDataCreate"
+      ]
+    },
+    "DELETE /quote/:parentId/:relation/:id": {
+      "controller": "Quote",
+      "action": "remove",
+      "policies": [
+        "isAuthorized",
+        "addDataUpdate"
+      ]
+    }
+  }
+}

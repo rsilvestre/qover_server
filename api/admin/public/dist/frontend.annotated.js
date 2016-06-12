@@ -3909,47 +3909,6 @@
   }
 })();
 
-// Generic models angular module initialize.
-(function () {
-  'use strict';
-
-  angular.module('frontend.core.libraries', []);
-})();
-
-(function () {
-  'use strict';
-
-  /**
-   * Service used to inject `pluralize` library inside a controller, service, directive...
-   */
-  angular.module('frontend.core.libraries')
-    .factory('pluralizeFactory', pluralizeFactory);
-
-  pluralizeFactory.$inject = ['$window'];
-
-  function pluralizeFactory($window) {
-    return $window.pluralize;
-  }
-})();
-
-(function () {
-  'use strict';
-
-  /**
-   * Service used to inject `lodash` library inside a controller, service, directive...
-   */
-  angular.module('frontend.core.libraries')
-    .factory('_', lodashFactory);
-
-  lodashFactory.$inject = ['$window'];
-
-  function lodashFactory($window) {
-    var service = $window._;
-
-    return service;
-  }
-})();
-
 (function () {
   'use strict';
 
@@ -4053,6 +4012,47 @@
         });
       }
     });
+  }
+})();
+
+// Generic models angular module initialize.
+(function () {
+  'use strict';
+
+  angular.module('frontend.core.libraries', []);
+})();
+
+(function () {
+  'use strict';
+
+  /**
+   * Service used to inject `pluralize` library inside a controller, service, directive...
+   */
+  angular.module('frontend.core.libraries')
+    .factory('pluralizeFactory', pluralizeFactory);
+
+  pluralizeFactory.$inject = ['$window'];
+
+  function pluralizeFactory($window) {
+    return $window.pluralize;
+  }
+})();
+
+(function () {
+  'use strict';
+
+  /**
+   * Service used to inject `lodash` library inside a controller, service, directive...
+   */
+  angular.module('frontend.core.libraries')
+    .factory('_', lodashFactory);
+
+  lodashFactory.$inject = ['$window'];
+
+  function lodashFactory($window) {
+    var service = $window._;
+
+    return service;
   }
 })();
 
@@ -4444,43 +4444,6 @@
   'use strict';
 
   // Init module.
-  angular.module('frontend.core.auth', [
-    'frontend.core.auth.login',
-    'frontend.core.auth.register',
-    'frontend.core.auth.forgotPassword',
-    'frontend.core.auth.changePassword',
-    'frontend.core.auth.services'
-  ]);
-})();
-
-(function () {
-  'use strict';
-
-  // Module configuration.
-  angular.module('frontend.core.auth')
-    .config([
-      '$stateProvider',
-      function config($stateProvider) {
-        $stateProvider
-          .state('auth', {
-            parent: 'frontend',
-            data: {
-              access: 1
-            },
-            views: {
-              'content@': {
-                template: ''
-              }
-            }
-          });
-      }
-    ]);
-})();
-
-(function () {
-  'use strict';
-
-  // Init module.
   angular.module('frontend', [
     'frontend-templates',
     'frontend.core',
@@ -4519,6 +4482,43 @@
       backendUrl: window.backendUrl || window.location.origin,
       frontendUrl: window.frontendUrl
     });
+})();
+
+(function () {
+  'use strict';
+
+  // Init module.
+  angular.module('frontend.core.auth', [
+    'frontend.core.auth.login',
+    'frontend.core.auth.register',
+    'frontend.core.auth.forgotPassword',
+    'frontend.core.auth.changePassword',
+    'frontend.core.auth.services'
+  ]);
+})();
+
+(function () {
+  'use strict';
+
+  // Module configuration.
+  angular.module('frontend.core.auth')
+    .config([
+      '$stateProvider',
+      function config($stateProvider) {
+        $stateProvider
+          .state('auth', {
+            parent: 'frontend',
+            data: {
+              access: 1
+            },
+            views: {
+              'content@': {
+                template: ''
+              }
+            }
+          });
+      }
+    ]);
 })();
 
 (function () {

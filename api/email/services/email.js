@@ -1,5 +1,8 @@
 'use strict';
 
+const EmailTemplates = require('swig-email-templates')
+const fileExists = require('file-exists')
+
 /**
  * Module dependencies
  */
@@ -42,6 +45,21 @@ module.exports = {
         };
       }
 
+      // Config EmailTemplates
+
+      const EmailTemplateConfig = {
+        root: `${__dirname}/../views`,
+        text: false,       // Disable text alternatives
+        swig: {
+          cache: false     // Don't cache swig templates
+        },
+        filters: {
+          upper: function(str) {
+            return str.toUpperCase();
+          }
+        }
+      }
+
       // Init the transporter.
       const transporter = nodemailer.createTransport(transportConfig);
 
@@ -62,14 +80,8 @@ module.exports = {
         sent: false
       }, options));
 
-      // Send the email.
-      transporter.sendMail({
-        from: options.from,
-        to: options.to,
-        subject: options.subject,
-        text: options.text,
-        html: options.html
-      }, function (err) {
+      // Finalstate
+      const finalState = function (err) {
         if (err) {
           cb(err);
           deferred.reject(err);
@@ -82,7 +94,47 @@ module.exports = {
             deferred.resolve(email);
           });
         }
-      });
+      }
+
+      // Template
+      let templates = null
+      if (options.hasOwnProperty('view') && fileExists(`${__dirname}/../views/${options.view}.html`)) {
+        templates = new EmailTemplates(EmailTemplateConfig)
+        const send = transporter.templateSender({
+          render: (context, callback) => {
+            templates.render(`${__dirname}/../views/${options.view}.html`, context, function (err, html, text) {
+                if(err){
+                  return callback(err);
+                }
+                callback(null, {
+                  html: html,
+                  text: text
+                });
+            });
+          }
+        })
+
+        // Send the email.
+
+        send({
+          from: options.from,
+          to: options.to,
+          subject: options.subject
+        },
+        options.data,
+        finalState);
+      } else {
+
+        // Send the email.
+
+        transporter.sendMail({
+          from: options.from,
+          to: options.to,
+          subject: options.subject,
+          text: options.text,
+          html: options.html
+        }, finalState);
+      }
 
     } catch (err) {
       deferred.reject(err);

@@ -1,0 +1,60 @@
+{
+  "identity": "quote",
+  "connection": "mongo",
+  "defaultTemplate": "default",
+  "displayedAttribute": "",
+  "schema": true,
+  "attributes": {
+    "lastname": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "carcc": {
+      "type": "integer"
+    },
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "template": {
+      "type": "string",
+      "required": true
+    },
+    "id_ref": {
+      "type": "int"
+    },
+    "createdBy": {
+      "model": "user"
+    },
+    "updatedBy": {
+      "model": "user"
+    },
+    "quoteProduct": {
+      "model": "product"
+    }
+  },
+  "autoCreatedAt": true,
+  "autoUpdatedAt": true,
+  "migrate": "alter",
+  "templates": {
+    "default": {
+      "attributes": {
+        "lastname": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        },
+        "product": {
+          "type": "integer"
+        },
+        "carcc": {
+          "type": "integer"
+        }
+      },
+      "displayedAttribute": "lastname"
+    }
+  }
+}

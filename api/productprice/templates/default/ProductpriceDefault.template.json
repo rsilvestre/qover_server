@@ -1,0 +1,11 @@
+{
+  "default": {
+    "attributes": {
+      "name": {},
+      "key": {},
+      "value": {},
+      "price": {}
+    },
+    "displayedAttribute": "name"
+  }
+}

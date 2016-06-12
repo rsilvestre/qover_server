@@ -1,0 +1,64 @@
+{
+  "identity": "productprice",
+  "connection": "postgresql",
+  "defaultTemplate": "default",
+  "displayedAttribute": "",
+  "schema": true,
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "createdBy": {
+      "model": "user"
+    },
+    "updatedBy": {
+      "model": "user"
+    },
+    "contributors": {
+      "collection": "user",
+      "via": "productprices"
+    },
+    "productProductPrice": {
+      "model": "product"
+    },
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "template": {
+      "type": "string",
+      "required": true
+    },
+    "id_ref": {
+      "type": "int"
+    }
+  },
+  "autoCreatedAt": true,
+  "autoUpdatedAt": true,
+  "migrate": "alter",
+  "templates": {
+    "default": {
+      "attributes": {
+        "name": {
+          "type": "string"
+        },
+        "rules": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        }
+      },
+      "displayedAttribute": "name"
+    }
+  }
+}

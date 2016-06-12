@@ -1,0 +1,48 @@
+{
+  "identity": "productparam",
+  "connection": "postgresql",
+  "defaultTemplate": "default",
+  "displayedAttribute": "",
+  "schema": true,
+  "attributes": {
+    "message": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "key": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    },
+    "createdBy": {
+      "model": "user"
+    },
+    "updatedBy": {
+      "model": "user"
+    },
+    "contributors": {
+      "collection": "user",
+      "via": "productparams"
+    },
+    "productProductParam": {
+      "model": "product"
+    },
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "template": {
+      "type": "string",
+      "required": true
+    },
+    "id_ref": {
+      "type": "int"
+    }
+  },
+  "autoCreatedAt": true,
+  "autoUpdatedAt": true,
+  "migrate": "alter"
+}

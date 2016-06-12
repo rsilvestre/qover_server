@@ -1,0 +1,57 @@
+{
+  "routes": {
+    "GET /productprice": {
+      "controller": "Productprice",
+      "action": "find",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "GET /productprice/:id": {
+      "controller": "Productprice",
+      "action": "findOne",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "POST /productprice": {
+      "controller": "Productprice",
+      "action": "create",
+      "policies": [
+        "isAuthorized",
+        "addDataCreate"
+      ]
+    },
+    "PUT /productprice/:id": {
+      "controller": "Productprice",
+      "action": "update",
+      "policies": [
+        "isAuthorized",
+        "addDataUpdate"
+      ]
+    },
+    "DELETE /productprice/:id": {
+      "controller": "Productprice",
+      "action": "destroy",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "POST /productprice/:parentId/:relation": {
+      "controller": "Productprice",
+      "action": "add",
+      "policies": [
+        "isAuthorized",
+        "addDataCreate"
+      ]
+    },
+    "DELETE /productprice/:parentId/:relation/:id": {
+      "controller": "Productprice",
+      "action": "remove",
+      "policies": [
+        "isAuthorized",
+        "addDataUpdate"
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "default": {
+    "attributes": {
+      "lastname": {},
+      "price": {},
+      "carcc": {}
+    },
+    "displayedAttribute": "lastname"
+  }
+}

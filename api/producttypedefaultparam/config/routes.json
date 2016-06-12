@@ -1,0 +1,57 @@
+{
+  "routes": {
+    "GET /producttypedefaultparam": {
+      "controller": "Producttypedefaultparam",
+      "action": "find",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "GET /producttypedefaultparam/:id": {
+      "controller": "Producttypedefaultparam",
+      "action": "findOne",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "POST /producttypedefaultparam": {
+      "controller": "Producttypedefaultparam",
+      "action": "create",
+      "policies": [
+        "isAuthorized",
+        "addDataCreate"
+      ]
+    },
+    "PUT /producttypedefaultparam/:id": {
+      "controller": "Producttypedefaultparam",
+      "action": "update",
+      "policies": [
+        "isAuthorized",
+        "addDataUpdate"
+      ]
+    },
+    "DELETE /producttypedefaultparam/:id": {
+      "controller": "Producttypedefaultparam",
+      "action": "destroy",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "POST /producttypedefaultparam/:parentId/:relation": {
+      "controller": "Producttypedefaultparam",
+      "action": "add",
+      "policies": [
+        "isAuthorized",
+        "addDataCreate"
+      ]
+    },
+    "DELETE /producttypedefaultparam/:parentId/:relation/:id": {
+      "controller": "Producttypedefaultparam",
+      "action": "remove",
+      "policies": [
+        "isAuthorized",
+        "addDataUpdate"
+      ]
+    }
+  }
+}

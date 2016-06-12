@@ -1,0 +1,57 @@
+{
+  "routes": {
+    "GET /productparam": {
+      "controller": "Productparam",
+      "action": "find",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "GET /productparam/:id": {
+      "controller": "Productparam",
+      "action": "findOne",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "POST /productparam": {
+      "controller": "Productparam",
+      "action": "create",
+      "policies": [
+        "isAuthorized",
+        "addDataCreate"
+      ]
+    },
+    "PUT /productparam/:id": {
+      "controller": "Productparam",
+      "action": "update",
+      "policies": [
+        "isAuthorized",
+        "addDataUpdate"
+      ]
+    },
+    "DELETE /productparam/:id": {
+      "controller": "Productparam",
+      "action": "destroy",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
+    "POST /productparam/:parentId/:relation": {
+      "controller": "Productparam",
+      "action": "add",
+      "policies": [
+        "isAuthorized",
+        "addDataCreate"
+      ]
+    },
+    "DELETE /productparam/:parentId/:relation/:id": {
+      "controller": "Productparam",
+      "action": "remove",
+      "policies": [
+        "isAuthorized",
+        "addDataUpdate"
+      ]
+    }
+  }
+}
