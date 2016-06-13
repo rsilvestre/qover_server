@@ -58,10 +58,6 @@
       "collection": "producttypedefaultparam",
       "via": "contributors"
     },
-    "tests": {
-      "collection": "test",
-      "via": "contributors"
-    },
     "productprices": {
       "collection": "productprice",
       "via": "contributors"
