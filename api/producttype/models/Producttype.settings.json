@@ -1,6 +1,6 @@
 {
   "identity": "producttype",
-  "connection": "postgresql",
+  "connection": "default",
   "defaultTemplate": "default",
   "displayedAttribute": "",
   "schema": true,

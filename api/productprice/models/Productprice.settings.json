@@ -1,6 +1,6 @@
 {
   "identity": "productprice",
-  "connection": "postgresql",
+  "connection": "default",
   "defaultTemplate": "default",
   "displayedAttribute": "",
   "schema": true,
