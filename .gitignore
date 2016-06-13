@@ -66,6 +66,8 @@ $RECYCLE.BIN/
 ############################
 
 .tmp
+# Only there for the qover use case
+!/.tmp
 *.log
 *.sql
 data/development

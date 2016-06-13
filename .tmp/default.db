@@ -1,0 +1,1816 @@
+{
+  "data": {
+    "car_contributors__user_cars": [],
+    "produit_contributors__user_produits": [
+      {
+        "user_produits": 1,
+        "produit_contributors": "5759aa316490c2f2e22d8acd",
+        "id": 1
+      }
+    ],
+    "quoteparam_contributors__user_quoteparams": [],
+    "quote_contributors__user_quotes": [
+      {
+        "user_quotes": 2,
+        "quote_contributors": "575c86933d4c4c54c1babb78",
+        "id": 4
+      }
+    ],
+    "email": [
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 1,
+        "createdAt": "2016-06-12T15:12:31.265Z",
+        "updatedAt": "2016-06-12T15:12:33.664Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 2,
+        "createdAt": "2016-06-12T17:02:43.039Z",
+        "updatedAt": "2016-06-12T17:02:43.039Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 3,
+        "createdAt": "2016-06-12T17:07:00.107Z",
+        "updatedAt": "2016-06-12T17:07:00.107Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 4,
+        "createdAt": "2016-06-12T17:07:46.854Z",
+        "updatedAt": "2016-06-12T17:07:46.854Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 5,
+        "createdAt": "2016-06-12T17:10:40.837Z",
+        "updatedAt": "2016-06-12T17:11:27.980Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 6,
+        "createdAt": "2016-06-12T17:11:42.659Z",
+        "updatedAt": "2016-06-12T17:12:58.297Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 7,
+        "createdAt": "2016-06-12T17:13:33.123Z",
+        "updatedAt": "2016-06-12T17:13:33.123Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 8,
+        "createdAt": "2016-06-12T17:14:11.923Z",
+        "updatedAt": "2016-06-12T17:14:15.408Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 9,
+        "createdAt": "2016-06-12T17:14:26.775Z",
+        "updatedAt": "2016-06-12T17:14:31.608Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 10,
+        "createdAt": "2016-06-12T17:14:57.452Z",
+        "updatedAt": "2016-06-12T17:15:40.974Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 11,
+        "createdAt": "2016-06-12T17:15:55.095Z",
+        "updatedAt": "2016-06-12T17:15:58.210Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 12,
+        "createdAt": "2016-06-12T17:24:45.747Z",
+        "updatedAt": "2016-06-12T17:25:10.822Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 13,
+        "createdAt": "2016-06-12T17:27:16.876Z",
+        "updatedAt": "2016-06-12T17:27:16.876Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 14,
+        "createdAt": "2016-06-12T17:27:50.153Z",
+        "updatedAt": "2016-06-12T17:27:50.153Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 15,
+        "createdAt": "2016-06-12T17:28:49.075Z",
+        "updatedAt": "2016-06-12T17:28:49.075Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 16,
+        "createdAt": "2016-06-12T17:29:51.089Z",
+        "updatedAt": "2016-06-12T17:29:51.089Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 17,
+        "createdAt": "2016-06-12T17:31:51.099Z",
+        "updatedAt": "2016-06-12T17:31:51.099Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 18,
+        "createdAt": "2016-06-12T17:33:07.409Z",
+        "updatedAt": "2016-06-12T17:33:07.409Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 19,
+        "createdAt": "2016-06-12T17:33:44.457Z",
+        "updatedAt": "2016-06-12T17:33:44.457Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 20,
+        "createdAt": "2016-06-12T17:34:20.105Z",
+        "updatedAt": "2016-06-12T17:34:20.105Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 21,
+        "createdAt": "2016-06-12T17:34:52.431Z",
+        "updatedAt": "2016-06-12T17:34:52.431Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 22,
+        "createdAt": "2016-06-12T17:35:47.455Z",
+        "updatedAt": "2016-06-12T17:35:47.455Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 23,
+        "createdAt": "2016-06-12T17:37:47.471Z",
+        "updatedAt": "2016-06-12T17:37:47.471Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 24,
+        "createdAt": "2016-06-12T17:40:07.881Z",
+        "updatedAt": "2016-06-12T17:40:07.881Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "html": "<p>Hello John</p>",
+        "text": "Hello John",
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 25,
+        "createdAt": "2016-06-12T17:42:07.885Z",
+        "updatedAt": "2016-06-12T17:42:07.885Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "",
+        "html": null,
+        "text": null,
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 26,
+        "createdAt": "2016-06-12T17:44:41.775Z",
+        "updatedAt": "2016-06-12T17:44:41.775Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "",
+        "html": null,
+        "text": null,
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 27,
+        "createdAt": "2016-06-12T17:48:56.137Z",
+        "updatedAt": "2016-06-12T17:48:56.137Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "",
+        "html": null,
+        "text": null,
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 28,
+        "createdAt": "2016-06-12T17:49:36.117Z",
+        "updatedAt": "2016-06-12T17:49:36.117Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 29,
+        "createdAt": "2016-06-12T18:09:08.702Z",
+        "updatedAt": "2016-06-12T18:09:11.099Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "",
+        "html": null,
+        "text": null,
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 30,
+        "createdAt": "2016-06-12T18:10:00.185Z",
+        "updatedAt": "2016-06-12T18:10:00.185Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 31,
+        "createdAt": "2016-06-12T18:10:57.112Z",
+        "updatedAt": "2016-06-12T18:11:13.110Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 32,
+        "createdAt": "2016-06-12T18:12:10.682Z",
+        "updatedAt": "2016-06-12T18:12:12.893Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 33,
+        "createdAt": "2016-06-12T18:17:31.190Z",
+        "updatedAt": "2016-06-12T18:17:33.579Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : BMW",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 34,
+        "createdAt": "2016-06-12T19:52:58.291Z",
+        "updatedAt": "2016-06-12T19:53:00.508Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Audi",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 35,
+        "createdAt": "2016-06-12T20:00:33.483Z",
+        "updatedAt": "2016-06-12T20:00:36.967Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : BMW",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 36,
+        "createdAt": "2016-06-12T20:00:50.311Z",
+        "updatedAt": "2016-06-12T20:00:56.732Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 37,
+        "createdAt": "2016-06-12T20:01:53.932Z",
+        "updatedAt": "2016-06-12T20:01:56.520Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Audi",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 38,
+        "createdAt": "2016-06-12T20:02:06.683Z",
+        "updatedAt": "2016-06-12T20:02:11.559Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 39,
+        "createdAt": "2016-06-13T07:50:27.350Z",
+        "updatedAt": "2016-06-13T07:50:29.951Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 40,
+        "createdAt": "2016-06-13T07:50:43.564Z",
+        "updatedAt": "2016-06-13T07:50:45.443Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 41,
+        "createdAt": "2016-06-13T07:51:54.942Z",
+        "updatedAt": "2016-06-13T07:51:56.978Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 42,
+        "createdAt": "2016-06-13T07:53:22.125Z",
+        "updatedAt": "2016-06-13T07:53:24.529Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 43,
+        "createdAt": "2016-06-13T07:53:37.276Z",
+        "updatedAt": "2016-06-13T07:53:39.390Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 44,
+        "createdAt": "2016-06-13T07:54:25.716Z",
+        "updatedAt": "2016-06-13T07:54:27.513Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 45,
+        "createdAt": "2016-06-13T07:54:33.031Z",
+        "updatedAt": "2016-06-13T07:54:35.003Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 46,
+        "createdAt": "2016-06-13T09:25:04.367Z",
+        "updatedAt": "2016-06-13T09:25:26.564Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 47,
+        "createdAt": "2016-06-13T09:25:34.672Z",
+        "updatedAt": "2016-06-13T09:25:36.616Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 48,
+        "createdAt": "2016-06-13T09:28:32.155Z",
+        "updatedAt": "2016-06-13T09:28:34.808Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 49,
+        "createdAt": "2016-06-13T09:30:16.484Z",
+        "updatedAt": "2016-06-13T09:30:18.067Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": null,
+        "text": null,
+        "sent": false,
+        "lang": "en_US",
+        "template": "default",
+        "id": 50,
+        "createdAt": "2016-06-13T09:32:07.745Z",
+        "updatedAt": "2016-06-13T09:32:07.745Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Porsche with 4000 CC.\nThe price to be paid is 500. Best regards,\nQOVER",
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 51,
+        "createdAt": "2016-06-13T09:37:14.837Z",
+        "updatedAt": "2016-06-13T09:37:27.607Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Audi",
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Audi with 4000 CC.\nThe price to be paid is 200. Best regards,\nQOVER",
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 52,
+        "createdAt": "2016-06-13T09:42:22.498Z",
+        "updatedAt": "2016-06-13T09:42:29.218Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Porsche with 5000 CC.\nThe price to be paid is 500. Best regards,\nQOVER",
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 53,
+        "createdAt": "2016-06-13T09:42:47.798Z",
+        "updatedAt": "2016-06-13T09:42:49.657Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Porsche",
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Porsche with 5000 CC.\nThe price to be paid is 500. Best regards,\nQOVER",
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 54,
+        "createdAt": "2016-06-13T10:09:35.095Z",
+        "updatedAt": "2016-06-13T10:09:38.014Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Audi",
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Audi with 4000 CC.\nThe price to be paid is 200. Best regards,\nQOVER",
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 55,
+        "createdAt": "2016-06-13T10:10:00.636Z",
+        "updatedAt": "2016-06-13T10:10:02.534Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Audi",
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Audi with 4000 CC.\nThe price to be paid is 200. Best regards,\nQOVER",
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 56,
+        "createdAt": "2016-06-13T10:10:49.156Z",
+        "updatedAt": "2016-06-13T10:10:51.094Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Audi",
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Audi with 4000 CC.\nThe price to be paid is 200. Best regards,\nQOVER",
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 57,
+        "createdAt": "2016-06-13T10:12:02.287Z",
+        "updatedAt": "2016-06-13T10:12:04.514Z"
+      },
+      {
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Audi",
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Audi with 4000 CC.\nThe price to be paid is 200. Best regards,\nQOVER",
+        "text": null,
+        "sent": true,
+        "lang": "en_US",
+        "template": "default",
+        "id": 58,
+        "createdAt": "2016-06-13T10:14:24.599Z",
+        "updatedAt": "2016-06-13T10:14:26.596Z"
+      },
+      {
+        "sent": true,
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Audi",
+        "text": null,
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Audi with 4000 CC.\nThe price to be paid is 200. Best regards,\nQOVER",
+        "template": "default",
+        "lang": "en_US",
+        "createdAt": "2016-06-13T10:16:12.293Z",
+        "updatedAt": "2016-06-13T10:16:14.622Z",
+        "id": 59
+      },
+      {
+        "sent": true,
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Audi",
+        "text": null,
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Audi with 4000 CC.\nThe price to be paid is 200. Best regards,\nQOVER",
+        "template": "default",
+        "lang": "en_US",
+        "createdAt": "2016-06-13T10:34:38.122Z",
+        "updatedAt": "2016-06-13T10:34:39.696Z",
+        "id": 60
+      },
+      {
+        "sent": true,
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Audi",
+        "text": null,
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Audi with 4000 CC.\nThe price to be paid is 200. Best regards,\nQOVER",
+        "template": "default",
+        "lang": "en_US",
+        "createdAt": "2016-06-13T10:45:41.276Z",
+        "updatedAt": "2016-06-13T10:45:44.125Z",
+        "id": 61
+      },
+      {
+        "sent": true,
+        "from": "<no-reply@website.com>",
+        "to": "willtard@gmail.com",
+        "subject": "Quote for : Audi",
+        "text": null,
+        "html": "Dear Silvestre,\nWe confirm that you have bought an insurance contract for your Audi with 4000 CC.\nThe price to be paid is 200. Best regards,\nQOVER",
+        "template": "default",
+        "lang": "en_US",
+        "createdAt": "2016-06-13T11:01:12.690Z",
+        "updatedAt": "2016-06-13T11:01:15.082Z",
+        "id": 62
+      }
+    ],
+    "test_contributors__user_tests": [
+      {
+        "user_tests": 1,
+        "test_contributors": "575c7a333d4c4c54c1babb71",
+        "id": 1
+      },
+      {
+        "user_tests": 1,
+        "test_contributors": "575c7a6b3d4c4c54c1babb72",
+        "id": 2
+      },
+      {
+        "user_tests": 1,
+        "test_contributors": "575c7a9e3d4c4c54c1babb73",
+        "id": 3
+      },
+      {
+        "user_tests": 2,
+        "test_contributors": "575c7b453d4c4c54c1babb74",
+        "id": 4
+      }
+    ],
+    "product": [
+      {
+        "name": "Audi",
+        "lang": "en_US",
+        "template": "default",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "producttype": 1,
+        "id": 1,
+        "createdAt": "2016-06-13T16:20:35.330Z",
+        "updatedAt": "2016-06-13T16:31:54.541Z"
+      },
+      {
+        "name": "BMW",
+        "lang": "en_US",
+        "template": "default",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "producttype": 1,
+        "id": 2,
+        "createdAt": "2016-06-13T16:20:35.330Z",
+        "updatedAt": "2016-06-13T16:31:54.545Z"
+      },
+      {
+        "name": "Porsche",
+        "lang": "en_US",
+        "template": "default",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "producttype": 1,
+        "id": 3,
+        "createdAt": "2016-06-13T16:23:26.375Z",
+        "updatedAt": "2016-06-13T16:31:54.548Z"
+      }
+    ],
+    "productparam": [
+      {
+        "message": "This field should be filled",
+        "name": "CarMaxCC",
+        "key": "carcc",
+        "value": "0",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "productProductParam": 3,
+        "lang": "en_US",
+        "template": "default",
+        "id": 1,
+        "createdAt": "2016-06-13T16:26:06.216Z",
+        "updatedAt": "2016-06-13T16:26:38.177Z"
+      }
+    ],
+    "productprice": [
+      {
+        "name": "MaxCCPriceAudi",
+        "key": "carcc",
+        "value": ">=2000",
+        "price": "200",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "productProductPrice": 1,
+        "lang": "en_US",
+        "template": "default",
+        "id": 1,
+        "createdAt": "2016-06-13T16:27:57.987Z",
+        "updatedAt": "2016-06-13T16:29:05.231Z"
+      },
+      {
+        "name": "MaxCCPriceBMW",
+        "key": "carcc",
+        "value": ">=2000",
+        "price": "250",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "productProductPrice": 2,
+        "lang": "en_US",
+        "template": "default",
+        "id": 2,
+        "createdAt": "2016-06-13T16:27:57.987Z",
+        "updatedAt": "2016-06-13T16:29:47.888Z"
+      },
+      {
+        "name": "MaxCCPricePorsche",
+        "key": "carcc",
+        "value": ">=2000",
+        "price": "500",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "productProductPrice": 3,
+        "lang": "en_US",
+        "template": "default",
+        "id": 3,
+        "createdAt": "2016-06-13T16:27:57.987Z",
+        "updatedAt": "2016-06-13T16:29:39.314Z"
+      },
+      {
+        "name": "MinCCPriceAudi",
+        "key": "carcc",
+        "value": "<2000",
+        "price": "100",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "productProductPrice": 1,
+        "lang": "en_US",
+        "template": "default",
+        "id": 4,
+        "createdAt": "2016-06-13T16:29:52.615Z",
+        "updatedAt": "2016-06-13T16:30:21.656Z"
+      },
+      {
+        "name": "MinCCPriceBMW",
+        "key": "carcc",
+        "value": "<2000",
+        "price": "125",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "productProductPrice": 2,
+        "lang": "en_US",
+        "template": "default",
+        "id": 5,
+        "createdAt": "2016-06-13T16:29:52.615Z",
+        "updatedAt": "2016-06-13T16:30:32.046Z"
+      },
+      {
+        "name": "MinCCPricePorsche",
+        "key": "carcc",
+        "value": "<2000",
+        "price": "150",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "productProductPrice": 3,
+        "lang": "en_US",
+        "template": "default",
+        "id": 6,
+        "createdAt": "2016-06-13T16:29:52.615Z",
+        "updatedAt": "2016-06-13T16:30:42.637Z"
+      }
+    ],
+    "producttype": [
+      {
+        "name": "Car",
+        "lang": "en_US",
+        "template": "default",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "id": 1,
+        "createdAt": "2016-06-13T16:31:28.708Z",
+        "updatedAt": "2016-06-13T16:31:54.530Z"
+      }
+    ],
+    "producttypedefaultparam": [
+      {
+        "message": "CAR IS TO POWERFULL – DENY",
+        "name": "CarMaxCC",
+        "key": "carcc",
+        "value": "<4000",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "productTypeProductTypeDefault": 1,
+        "lang": "en_US",
+        "template": "default",
+        "id": 1,
+        "createdAt": "2016-06-13T16:32:22.853Z",
+        "updatedAt": "2016-06-13T16:33:02.473Z"
+      },
+      {
+        "message": "POWER OF A CAR MUST BE HIGHER OR EQUAL TO 500",
+        "name": "CarMinCC",
+        "key": "carcc",
+        "value": ">500",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "productTypeProductTypeDefault": 1,
+        "lang": "en_US",
+        "template": "default",
+        "id": 2,
+        "createdAt": "2016-06-13T16:32:22.853Z",
+        "updatedAt": "2016-06-13T16:33:24.473Z"
+      }
+    ],
+    "upload": [],
+    "user": [
+      {
+        "username": "willtard",
+        "email": "willtard@gmail.com",
+        "lang": "en_US",
+        "template": "default",
+        "id_ref": "1",
+        "provider": "local",
+        "password": "$2a$10$9gy8wetqj5NZmG.cjuqHu.5GJxo0tkC59LNGwDFGlVyYWZrWAZfdG",
+        "id": 1,
+        "createdAt": "2016-06-09T15:18:55.128Z",
+        "updatedAt": "2016-06-09T15:18:55.139Z"
+      },
+      {
+        "username": "Qover Team",
+        "email": "qc@qover.me",
+        "lang": "en_US",
+        "template": "default",
+        "id_ref": "1",
+        "provider": "local",
+        "password": "$2a$10$t.JSghIWnvCItWbB/KR8GutCzDGlRUIsBLK5EC.8U9McSKVAsWuna",
+        "id": 2,
+        "createdAt": "2016-06-10T18:25:02.784Z",
+        "updatedAt": "2016-06-10T18:31:36.343Z"
+      },
+      {
+        "username": "Guest",
+        "email": "guest@qover.me",
+        "lang": "en_US",
+        "template": "default",
+        "id_ref": "1",
+        "provider": "local",
+        "password": "$2a$10$nw1Wot29FyfO.we4./n6G.ufLX1VKf77raxsZ9FxMo1FIqdYa1s8m",
+        "id": 3,
+        "createdAt": "2016-06-10T18:33:31.614Z",
+        "updatedAt": "2016-06-10T18:33:50.140Z"
+      }
+    ],
+    "product_contributors__user_products": [
+      {
+        "user_products": 1,
+        "product_contributors": 1,
+        "id": 1
+      },
+      {
+        "user_products": 1,
+        "product_contributors": 2,
+        "id": 4
+      },
+      {
+        "user_products": 1,
+        "product_contributors": 3,
+        "id": 5
+      }
+    ],
+    "productparam_contributors__user_productparams": [
+      {
+        "user_productparams": 1,
+        "productparam_contributors": 1,
+        "id": 4
+      }
+    ],
+    "productprice_contributors__user_productprices": [
+      {
+        "user_productprices": 1,
+        "productprice_contributors": 6,
+        "id": 25
+      },
+      {
+        "user_productprices": 1,
+        "productprice_contributors": 5,
+        "id": 26
+      },
+      {
+        "user_productprices": 1,
+        "productprice_contributors": 4,
+        "id": 27
+      },
+      {
+        "user_productprices": 1,
+        "productprice_contributors": 3,
+        "id": 28
+      },
+      {
+        "user_productprices": 1,
+        "productprice_contributors": 1,
+        "id": 30
+      },
+      {
+        "user_productprices": 1,
+        "productprice_contributors": 2,
+        "id": 31
+      }
+    ],
+    "producttype_contributors__user_producttypes": [
+      {
+        "user_producttypes": 1,
+        "producttype_contributors": 1,
+        "id": 1
+      }
+    ],
+    "producttypedefaultparam_contributors__user_producttypedefaultparams": [
+      {
+        "user_producttypedefaultparams": 1,
+        "producttypedefaultparam_contributors": 2,
+        "id": 3
+      },
+      {
+        "user_producttypedefaultparams": 1,
+        "producttypedefaultparam_contributors": 1,
+        "id": 4
+      }
+    ],
+    "role_users__user_roles": [
+      {
+        "role_users": 1,
+        "user_roles": 1,
+        "id": 1
+      },
+      {
+        "user_roles": 2,
+        "role_users": 2,
+        "id": 3
+      },
+      {
+        "user_roles": 3,
+        "role_users": 3,
+        "id": 4
+      }
+    ]
+  },
+  "schema": {
+    "car_contributors__user_cars": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "car_contributors": {
+        "type": "string",
+        "foreignKey": true,
+        "references": "car",
+        "on": "id",
+        "via": "user_cars"
+      },
+      "user_cars": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "car_contributors"
+      }
+    },
+    "produit_contributors__user_produits": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "produit_contributors": {
+        "type": "string",
+        "foreignKey": true,
+        "references": "produit",
+        "on": "id",
+        "via": "user_produits"
+      },
+      "user_produits": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "produit_contributors"
+      }
+    },
+    "quoteparam_contributors__user_quoteparams": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "quoteparam_contributors": {
+        "type": "string",
+        "foreignKey": true,
+        "references": "quoteparam",
+        "on": "id",
+        "via": "user_quoteparams"
+      },
+      "user_quoteparams": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "quoteparam_contributors"
+      }
+    },
+    "quote_contributors__user_quotes": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "quote_contributors": {
+        "type": "string",
+        "foreignKey": true,
+        "references": "quote",
+        "on": "id",
+        "via": "user_quotes"
+      },
+      "user_quotes": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "quote_contributors"
+      }
+    },
+    "email": {
+      "from": {
+        "type": "string"
+      },
+      "to": {
+        "type": "string"
+      },
+      "subject": {
+        "type": "string"
+      },
+      "html": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "sent": {
+        "type": "boolean"
+      },
+      "lang": {
+        "type": "string"
+      },
+      "template": {
+        "type": "string"
+      },
+      "id_ref": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "test_contributors__user_tests": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "test_contributors": {
+        "type": "string",
+        "foreignKey": true,
+        "references": "test",
+        "on": "id",
+        "via": "user_tests"
+      },
+      "user_tests": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "test_contributors"
+      }
+    },
+    "product": {
+      "name": {
+        "type": "string"
+      },
+      "lang": {
+        "type": "string"
+      },
+      "template": {
+        "type": "string"
+      },
+      "id_ref": {
+        "type": "string"
+      },
+      "createdBy": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "createdBy"
+      },
+      "updatedBy": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "updatedBy"
+      },
+      "producttype": {
+        "type": "integer",
+        "model": "producttype",
+        "foreignKey": true,
+        "alias": "producttype"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "productparam": {
+      "message": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "key": {
+        "type": "string"
+      },
+      "value": {
+        "type": "string"
+      },
+      "createdBy": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "createdBy"
+      },
+      "updatedBy": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "updatedBy"
+      },
+      "productProductParam": {
+        "type": "integer",
+        "model": "product",
+        "foreignKey": true,
+        "alias": "productProductParam"
+      },
+      "lang": {
+        "type": "string"
+      },
+      "template": {
+        "type": "string"
+      },
+      "id_ref": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "productprice": {
+      "name": {
+        "type": "string"
+      },
+      "key": {
+        "type": "string"
+      },
+      "value": {
+        "type": "string"
+      },
+      "price": {
+        "type": "string"
+      },
+      "createdBy": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "createdBy"
+      },
+      "updatedBy": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "updatedBy"
+      },
+      "productProductPrice": {
+        "type": "integer",
+        "model": "product",
+        "foreignKey": true,
+        "alias": "productProductPrice"
+      },
+      "lang": {
+        "type": "string"
+      },
+      "template": {
+        "type": "string"
+      },
+      "id_ref": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "producttype": {
+      "name": {
+        "type": "string"
+      },
+      "lang": {
+        "type": "string"
+      },
+      "template": {
+        "type": "string"
+      },
+      "id_ref": {
+        "type": "string"
+      },
+      "createdBy": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "createdBy"
+      },
+      "updatedBy": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "updatedBy"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "producttypedefaultparam": {
+      "message": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "key": {
+        "type": "string"
+      },
+      "value": {
+        "type": "string"
+      },
+      "createdBy": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "createdBy"
+      },
+      "updatedBy": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "updatedBy"
+      },
+      "productTypeProductTypeDefault": {
+        "type": "integer",
+        "model": "producttype",
+        "foreignKey": true,
+        "alias": "productTypeProductTypeDefault"
+      },
+      "lang": {
+        "type": "string"
+      },
+      "template": {
+        "type": "string"
+      },
+      "id_ref": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "upload": {
+      "readable": {
+        "type": "boolean"
+      },
+      "domain": {
+        "type": "boolean"
+      },
+      "truncated": {
+        "type": "boolean"
+      },
+      "fieldname": {
+        "type": "string"
+      },
+      "filename": {
+        "type": "string"
+      },
+      "encoding": {
+        "type": "string"
+      },
+      "transferEncoding": {
+        "type": "string"
+      },
+      "mime": {
+        "type": "string"
+      },
+      "mimeType": {
+        "type": "string"
+      },
+      "originalFilenameFormatted": {
+        "type": "string"
+      },
+      "originalFilename": {
+        "type": "string"
+      },
+      "lang": {
+        "type": "string"
+      },
+      "template": {
+        "type": "string"
+      },
+      "id_ref": {
+        "type": "string"
+      },
+      "createdBy": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "createdBy"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "username": {
+        "type": "string",
+        "unique": true
+      },
+      "email": {
+        "type": "string",
+        "unique": true
+      },
+      "lang": {
+        "type": "string"
+      },
+      "template": {
+        "type": "string"
+      },
+      "id_ref": {
+        "type": "string"
+      },
+      "provider": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "resetPasswordToken": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "product_contributors__user_products": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "product_contributors": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "product",
+        "on": "id",
+        "via": "user_products"
+      },
+      "user_products": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "product_contributors"
+      }
+    },
+    "productparam_contributors__user_productparams": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "productparam_contributors": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "productparam",
+        "on": "id",
+        "via": "user_productparams"
+      },
+      "user_productparams": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "productparam_contributors"
+      }
+    },
+    "productprice_contributors__user_productprices": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "productprice_contributors": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "productprice",
+        "on": "id",
+        "via": "user_productprices"
+      },
+      "user_productprices": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "productprice_contributors"
+      }
+    },
+    "producttype_contributors__user_producttypes": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "producttype_contributors": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "producttype",
+        "on": "id",
+        "via": "user_producttypes"
+      },
+      "user_producttypes": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "producttype_contributors"
+      }
+    },
+    "producttypedefaultparam_contributors__user_producttypedefaultparams": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "producttypedefaultparam_contributors": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "producttypedefaultparam",
+        "on": "id",
+        "via": "user_producttypedefaultparams"
+      },
+      "user_producttypedefaultparams": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "producttypedefaultparam_contributors"
+      }
+    },
+    "role_users__user_roles": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "role_users": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "role",
+        "on": "id",
+        "via": "user_roles"
+      },
+      "user_roles": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "user",
+        "on": "id",
+        "via": "role_users"
+      }
+    }
+  },
+  "counters": {
+    "email": {
+      "id": 62
+    },
+    "upload": {},
+    "user": {
+      "id": 3
+    },
+    "role_users__user_roles": {
+      "id": 4
+    },
+    "produit_contributors__user_produits": {
+      "id": 1
+    },
+    "car_contributors__user_cars": {},
+    "product_contributors__user_products": {
+      "id": 5
+    },
+    "producttype_contributors__user_producttypes": {
+      "id": 1
+    },
+    "productparam_contributors__user_productparams": {
+      "id": 4
+    },
+    "producttypedefaultparam_contributors__user_producttypedefaultparams": {
+      "id": 4
+    },
+    "quote_contributors__user_quotes": {
+      "id": 4
+    },
+    "quoteparam_contributors__user_quoteparams": {},
+    "test_contributors__user_tests": {
+      "id": 4
+    },
+    "productprice_contributors__user_productprices": {
+      "id": 31
+    },
+    "product": {
+      "id": 3
+    },
+    "productparam": {
+      "id": 1
+    },
+    "productprice": {
+      "id": 6
+    },
+    "producttype": {
+      "id": 1
+    },
+    "producttypedefaultparam": {
+      "id": 2
+    }
+  }
+}
