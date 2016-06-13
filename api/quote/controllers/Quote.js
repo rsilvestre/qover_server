@@ -171,7 +171,10 @@ module.exports = {
       // this.body = entry;
       this.body = {
         error: null,
-        data: entry
+        data: {
+          entry: entry,
+          product: product
+        }
       }
     } catch (err) {
       this.body = {

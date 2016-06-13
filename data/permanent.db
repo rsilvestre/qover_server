@@ -31,7 +31,7 @@
         "contributorsAuthorized": true,
         "id": 1,
         "createdAt": "2016-06-09T15:06:09.684Z",
-        "updatedAt": "2016-06-13T09:45:06.019Z"
+        "updatedAt": "2016-06-13T11:20:32.686Z"
       },
       {
         "name": "GET /admin/routes",
@@ -43,7 +43,7 @@
         "contributorsAuthorized": true,
         "id": 2,
         "createdAt": "2016-06-09T15:06:09.685Z",
-        "updatedAt": "2016-06-13T09:45:06.026Z"
+        "updatedAt": "2016-06-13T11:20:32.694Z"
       },
       {
         "name": "PUT /admin/routes",
@@ -57,7 +57,7 @@
         "contributorsAuthorized": true,
         "id": 3,
         "createdAt": "2016-06-09T15:06:09.686Z",
-        "updatedAt": "2016-06-13T09:45:06.037Z"
+        "updatedAt": "2016-06-13T11:20:32.704Z"
       },
       {
         "name": "GET /admin/explorer/:model",
@@ -71,7 +71,7 @@
         "contributorsAuthorized": true,
         "id": 4,
         "createdAt": "2016-06-09T15:06:09.687Z",
-        "updatedAt": "2016-06-13T09:45:06.046Z"
+        "updatedAt": "2016-06-13T11:20:32.711Z"
       },
       {
         "name": "GET /admin/explorer/:model/count",
@@ -85,7 +85,7 @@
         "contributorsAuthorized": true,
         "id": 5,
         "createdAt": "2016-06-09T15:06:09.687Z",
-        "updatedAt": "2016-06-13T09:45:06.052Z"
+        "updatedAt": "2016-06-13T11:20:32.725Z"
       },
       {
         "name": "GET /admin/explorer/:model/:id",
@@ -99,7 +99,7 @@
         "contributorsAuthorized": true,
         "id": 6,
         "createdAt": "2016-06-09T15:06:09.688Z",
-        "updatedAt": "2016-06-13T09:45:06.057Z"
+        "updatedAt": "2016-06-13T11:20:32.732Z"
       },
       {
         "name": "POST /admin/explorer/:model",
@@ -114,7 +114,7 @@
         "contributorsAuthorized": true,
         "id": 7,
         "createdAt": "2016-06-09T15:06:09.688Z",
-        "updatedAt": "2016-06-13T09:45:06.063Z"
+        "updatedAt": "2016-06-13T11:20:32.739Z"
       },
       {
         "name": "PUT /admin/explorer/:model/:id",
@@ -129,7 +129,7 @@
         "contributorsAuthorized": true,
         "id": 8,
         "createdAt": "2016-06-09T15:06:09.688Z",
-        "updatedAt": "2016-06-13T09:45:06.067Z"
+        "updatedAt": "2016-06-13T11:20:32.742Z"
       },
       {
         "name": "DELETE /admin/explorer/:model/:id",
@@ -143,7 +143,7 @@
         "contributorsAuthorized": true,
         "id": 9,
         "createdAt": "2016-06-09T15:06:09.689Z",
-        "updatedAt": "2016-06-13T09:45:06.071Z"
+        "updatedAt": "2016-06-13T11:20:32.746Z"
       },
       {
         "name": "POST /email",
@@ -157,7 +157,7 @@
         "contributorsAuthorized": true,
         "id": 10,
         "createdAt": "2016-06-09T15:06:09.690Z",
-        "updatedAt": "2016-06-13T09:45:06.076Z"
+        "updatedAt": "2016-06-13T11:20:32.751Z"
       },
       {
         "name": "POST /upload",
@@ -172,7 +172,7 @@
         "contributorsAuthorized": true,
         "id": 11,
         "createdAt": "2016-06-09T15:06:09.691Z",
-        "updatedAt": "2016-06-13T09:45:06.269Z"
+        "updatedAt": "2016-06-13T11:20:32.966Z"
       },
       {
         "name": "GET /user",
@@ -186,7 +186,7 @@
         "contributorsAuthorized": false,
         "id": 12,
         "createdAt": "2016-06-09T15:06:09.692Z",
-        "updatedAt": "2016-06-13T09:45:06.272Z"
+        "updatedAt": "2016-06-13T11:20:32.969Z"
       },
       {
         "name": "GET /user/:id",
@@ -200,7 +200,7 @@
         "contributorsAuthorized": true,
         "id": 13,
         "createdAt": "2016-06-09T15:06:09.692Z",
-        "updatedAt": "2016-06-13T09:45:06.275Z"
+        "updatedAt": "2016-06-13T11:20:32.972Z"
       },
       {
         "name": "POST /user",
@@ -216,7 +216,7 @@
         "contributorsAuthorized": false,
         "id": 14,
         "createdAt": "2016-06-09T15:06:09.693Z",
-        "updatedAt": "2016-06-13T09:45:06.278Z"
+        "updatedAt": "2016-06-13T11:20:32.974Z"
       },
       {
         "name": "PUT /user/:id",
@@ -232,7 +232,7 @@
         "contributorsAuthorized": true,
         "id": 15,
         "createdAt": "2016-06-09T15:06:09.694Z",
-        "updatedAt": "2016-06-13T09:45:06.280Z"
+        "updatedAt": "2016-06-13T11:20:32.976Z"
       },
       {
         "name": "DELETE /user/:id",
@@ -246,7 +246,7 @@
         "contributorsAuthorized": true,
         "id": 16,
         "createdAt": "2016-06-09T15:06:09.695Z",
-        "updatedAt": "2016-06-13T09:45:06.283Z"
+        "updatedAt": "2016-06-13T11:20:32.978Z"
       },
       {
         "name": "POST /user/:parentId/:relation",
@@ -262,7 +262,7 @@
         "contributorsAuthorized": false,
         "id": 17,
         "createdAt": "2016-06-09T15:06:09.696Z",
-        "updatedAt": "2016-06-13T09:45:06.286Z"
+        "updatedAt": "2016-06-13T11:20:32.981Z"
       },
       {
         "name": "DELETE /user/:parentId/:relation/:id",
@@ -278,7 +278,7 @@
         "contributorsAuthorized": false,
         "id": 18,
         "createdAt": "2016-06-09T15:06:09.697Z",
-        "updatedAt": "2016-06-13T09:45:06.288Z"
+        "updatedAt": "2016-06-13T11:20:32.982Z"
       },
       {
         "name": "POST /auth/logout",
@@ -290,7 +290,7 @@
         "contributorsAuthorized": false,
         "id": 19,
         "createdAt": "2016-06-09T15:06:09.699Z",
-        "updatedAt": "2016-06-13T09:45:06.290Z"
+        "updatedAt": "2016-06-13T11:20:32.986Z"
       },
       {
         "name": "POST /auth/forgot-password",
@@ -302,7 +302,7 @@
         "contributorsAuthorized": false,
         "id": 20,
         "createdAt": "2016-06-09T15:06:09.700Z",
-        "updatedAt": "2016-06-13T09:45:06.291Z"
+        "updatedAt": "2016-06-13T11:20:32.988Z"
       },
       {
         "name": "POST /auth/change-password",
@@ -314,7 +314,7 @@
         "contributorsAuthorized": false,
         "id": 21,
         "createdAt": "2016-06-09T15:06:09.701Z",
-        "updatedAt": "2016-06-13T09:45:06.294Z"
+        "updatedAt": "2016-06-13T11:20:32.990Z"
       },
       {
         "name": "POST /auth/local",
@@ -326,7 +326,7 @@
         "contributorsAuthorized": false,
         "id": 22,
         "createdAt": "2016-06-09T15:06:09.702Z",
-        "updatedAt": "2016-06-13T09:45:06.296Z"
+        "updatedAt": "2016-06-13T11:20:32.993Z"
       },
       {
         "name": "POST /auth/local/register",
@@ -338,7 +338,7 @@
         "contributorsAuthorized": false,
         "id": 23,
         "createdAt": "2016-06-09T15:06:09.703Z",
-        "updatedAt": "2016-06-13T09:45:06.299Z"
+        "updatedAt": "2016-06-13T11:20:32.994Z"
       },
       {
         "name": "GET /auth/:provider/callback",
@@ -350,7 +350,7 @@
         "contributorsAuthorized": false,
         "id": 24,
         "createdAt": "2016-06-09T15:06:09.704Z",
-        "updatedAt": "2016-06-13T09:45:06.301Z"
+        "updatedAt": "2016-06-13T11:20:32.996Z"
       },
       {
         "name": "GET /product",
@@ -364,7 +364,7 @@
         "contributorsAuthorized": true,
         "id": 32,
         "createdAt": "2016-06-11T07:47:40.514Z",
-        "updatedAt": "2016-06-13T09:45:06.080Z"
+        "updatedAt": "2016-06-13T11:20:32.754Z"
       },
       {
         "name": "GET /product/:id",
@@ -378,7 +378,7 @@
         "contributorsAuthorized": true,
         "id": 33,
         "createdAt": "2016-06-11T07:47:40.515Z",
-        "updatedAt": "2016-06-13T09:45:06.084Z"
+        "updatedAt": "2016-06-13T11:20:32.759Z"
       },
       {
         "name": "POST /product",
@@ -393,7 +393,7 @@
         "contributorsAuthorized": true,
         "id": 34,
         "createdAt": "2016-06-11T07:47:40.516Z",
-        "updatedAt": "2016-06-13T09:45:06.089Z"
+        "updatedAt": "2016-06-13T11:20:32.765Z"
       },
       {
         "name": "PUT /product/:id",
@@ -408,7 +408,7 @@
         "contributorsAuthorized": true,
         "id": 35,
         "createdAt": "2016-06-11T07:47:40.516Z",
-        "updatedAt": "2016-06-13T09:45:06.093Z"
+        "updatedAt": "2016-06-13T11:20:32.770Z"
       },
       {
         "name": "DELETE /product/:id",
@@ -422,7 +422,7 @@
         "contributorsAuthorized": true,
         "id": 36,
         "createdAt": "2016-06-11T07:47:40.517Z",
-        "updatedAt": "2016-06-13T09:45:06.098Z"
+        "updatedAt": "2016-06-13T11:20:32.776Z"
       },
       {
         "name": "POST /product/:parentId/:relation",
@@ -437,7 +437,7 @@
         "contributorsAuthorized": true,
         "id": 37,
         "createdAt": "2016-06-11T07:47:40.518Z",
-        "updatedAt": "2016-06-13T09:45:06.105Z"
+        "updatedAt": "2016-06-13T11:20:32.780Z"
       },
       {
         "name": "DELETE /product/:parentId/:relation/:id",
@@ -452,7 +452,7 @@
         "contributorsAuthorized": true,
         "id": 38,
         "createdAt": "2016-06-11T07:47:40.519Z",
-        "updatedAt": "2016-06-13T09:45:06.109Z"
+        "updatedAt": "2016-06-13T11:20:32.787Z"
       },
       {
         "name": "GET /productparam",
@@ -466,7 +466,7 @@
         "contributorsAuthorized": true,
         "id": 39,
         "createdAt": "2016-06-11T07:47:40.520Z",
-        "updatedAt": "2016-06-13T09:45:06.113Z"
+        "updatedAt": "2016-06-13T11:20:32.791Z"
       },
       {
         "name": "GET /productparam/:id",
@@ -480,7 +480,7 @@
         "contributorsAuthorized": true,
         "id": 40,
         "createdAt": "2016-06-11T07:47:40.521Z",
-        "updatedAt": "2016-06-13T09:45:06.117Z"
+        "updatedAt": "2016-06-13T11:20:32.795Z"
       },
       {
         "name": "POST /productparam",
@@ -495,7 +495,7 @@
         "contributorsAuthorized": true,
         "id": 41,
         "createdAt": "2016-06-11T07:47:40.522Z",
-        "updatedAt": "2016-06-13T09:45:06.121Z"
+        "updatedAt": "2016-06-13T11:20:32.801Z"
       },
       {
         "name": "PUT /productparam/:id",
@@ -510,7 +510,7 @@
         "contributorsAuthorized": true,
         "id": 42,
         "createdAt": "2016-06-11T07:47:40.523Z",
-        "updatedAt": "2016-06-13T09:45:06.125Z"
+        "updatedAt": "2016-06-13T11:20:32.806Z"
       },
       {
         "name": "DELETE /productparam/:id",
@@ -524,7 +524,7 @@
         "contributorsAuthorized": true,
         "id": 43,
         "createdAt": "2016-06-11T07:47:40.524Z",
-        "updatedAt": "2016-06-13T09:45:06.130Z"
+        "updatedAt": "2016-06-13T11:20:32.811Z"
       },
       {
         "name": "POST /productparam/:parentId/:relation",
@@ -539,7 +539,7 @@
         "contributorsAuthorized": true,
         "id": 44,
         "createdAt": "2016-06-11T07:47:40.525Z",
-        "updatedAt": "2016-06-13T09:45:06.136Z"
+        "updatedAt": "2016-06-13T11:20:32.817Z"
       },
       {
         "name": "DELETE /productparam/:parentId/:relation/:id",
@@ -554,7 +554,7 @@
         "contributorsAuthorized": true,
         "id": 45,
         "createdAt": "2016-06-11T07:47:40.525Z",
-        "updatedAt": "2016-06-13T09:45:06.139Z"
+        "updatedAt": "2016-06-13T11:20:32.821Z"
       },
       {
         "name": "GET /producttype",
@@ -568,7 +568,7 @@
         "contributorsAuthorized": true,
         "id": 46,
         "createdAt": "2016-06-11T07:47:40.526Z",
-        "updatedAt": "2016-06-13T09:45:06.174Z"
+        "updatedAt": "2016-06-13T11:20:32.861Z"
       },
       {
         "name": "GET /producttype/:id",
@@ -582,7 +582,7 @@
         "contributorsAuthorized": true,
         "id": 47,
         "createdAt": "2016-06-11T07:47:40.527Z",
-        "updatedAt": "2016-06-13T09:45:06.182Z"
+        "updatedAt": "2016-06-13T11:20:32.866Z"
       },
       {
         "name": "POST /producttype",
@@ -597,7 +597,7 @@
         "contributorsAuthorized": true,
         "id": 48,
         "createdAt": "2016-06-11T07:47:40.531Z",
-        "updatedAt": "2016-06-13T09:45:06.186Z"
+        "updatedAt": "2016-06-13T11:20:32.872Z"
       },
       {
         "name": "PUT /producttype/:id",
@@ -612,7 +612,7 @@
         "contributorsAuthorized": true,
         "id": 49,
         "createdAt": "2016-06-11T07:47:40.532Z",
-        "updatedAt": "2016-06-13T09:45:06.191Z"
+        "updatedAt": "2016-06-13T11:20:32.876Z"
       },
       {
         "name": "DELETE /producttype/:id",
@@ -626,7 +626,7 @@
         "contributorsAuthorized": true,
         "id": 50,
         "createdAt": "2016-06-11T07:47:40.533Z",
-        "updatedAt": "2016-06-13T09:45:06.194Z"
+        "updatedAt": "2016-06-13T11:20:32.880Z"
       },
       {
         "name": "POST /producttype/:parentId/:relation",
@@ -641,7 +641,7 @@
         "contributorsAuthorized": true,
         "id": 51,
         "createdAt": "2016-06-11T07:47:40.534Z",
-        "updatedAt": "2016-06-13T09:45:06.198Z"
+        "updatedAt": "2016-06-13T11:20:32.883Z"
       },
       {
         "name": "DELETE /producttype/:parentId/:relation/:id",
@@ -656,7 +656,7 @@
         "contributorsAuthorized": true,
         "id": 52,
         "createdAt": "2016-06-11T07:47:40.535Z",
-        "updatedAt": "2016-06-13T09:45:06.203Z"
+        "updatedAt": "2016-06-13T11:20:32.887Z"
       },
       {
         "name": "GET /producttypedefaultparam",
@@ -670,7 +670,7 @@
         "contributorsAuthorized": true,
         "id": 53,
         "createdAt": "2016-06-11T07:47:40.536Z",
-        "updatedAt": "2016-06-13T09:45:06.210Z"
+        "updatedAt": "2016-06-13T11:20:32.892Z"
       },
       {
         "name": "GET /producttypedefaultparam/:id",
@@ -684,7 +684,7 @@
         "contributorsAuthorized": true,
         "id": 54,
         "createdAt": "2016-06-11T07:47:40.538Z",
-        "updatedAt": "2016-06-13T09:45:06.224Z"
+        "updatedAt": "2016-06-13T11:20:32.896Z"
       },
       {
         "name": "POST /producttypedefaultparam",
@@ -699,7 +699,7 @@
         "contributorsAuthorized": true,
         "id": 55,
         "createdAt": "2016-06-11T07:47:40.539Z",
-        "updatedAt": "2016-06-13T09:45:06.226Z"
+        "updatedAt": "2016-06-13T11:20:32.903Z"
       },
       {
         "name": "PUT /producttypedefaultparam/:id",
@@ -714,7 +714,7 @@
         "contributorsAuthorized": true,
         "id": 56,
         "createdAt": "2016-06-11T07:47:40.540Z",
-        "updatedAt": "2016-06-13T09:45:06.229Z"
+        "updatedAt": "2016-06-13T11:20:32.918Z"
       },
       {
         "name": "DELETE /producttypedefaultparam/:id",
@@ -728,7 +728,7 @@
         "contributorsAuthorized": true,
         "id": 57,
         "createdAt": "2016-06-11T07:47:40.541Z",
-        "updatedAt": "2016-06-13T09:45:06.231Z"
+        "updatedAt": "2016-06-13T11:20:32.920Z"
       },
       {
         "name": "POST /producttypedefaultparam/:parentId/:relation",
@@ -743,7 +743,7 @@
         "contributorsAuthorized": true,
         "id": 58,
         "createdAt": "2016-06-11T07:47:40.542Z",
-        "updatedAt": "2016-06-13T09:45:06.233Z"
+        "updatedAt": "2016-06-13T11:20:32.923Z"
       },
       {
         "name": "DELETE /producttypedefaultparam/:parentId/:relation/:id",
@@ -758,7 +758,7 @@
         "contributorsAuthorized": true,
         "id": 59,
         "createdAt": "2016-06-11T07:47:40.544Z",
-        "updatedAt": "2016-06-13T09:45:06.236Z"
+        "updatedAt": "2016-06-13T11:20:32.925Z"
       },
       {
         "name": "GET /quote",
@@ -772,7 +772,7 @@
         "contributorsAuthorized": true,
         "id": 61,
         "createdAt": "2016-06-11T14:49:41.832Z",
-        "updatedAt": "2016-06-13T09:45:06.238Z"
+        "updatedAt": "2016-06-13T11:20:32.927Z"
       },
       {
         "name": "GET /quote/:id",
@@ -786,7 +786,7 @@
         "contributorsAuthorized": true,
         "id": 62,
         "createdAt": "2016-06-11T14:49:41.833Z",
-        "updatedAt": "2016-06-13T09:45:06.241Z"
+        "updatedAt": "2016-06-13T11:20:32.931Z"
       },
       {
         "name": "POST /quote",
@@ -801,7 +801,7 @@
         "contributorsAuthorized": false,
         "id": 63,
         "createdAt": "2016-06-11T14:49:41.834Z",
-        "updatedAt": "2016-06-13T09:45:06.243Z"
+        "updatedAt": "2016-06-13T11:20:32.933Z"
       },
       {
         "name": "PUT /quote/:id",
@@ -816,7 +816,7 @@
         "contributorsAuthorized": true,
         "id": 64,
         "createdAt": "2016-06-11T14:49:41.836Z",
-        "updatedAt": "2016-06-13T09:45:06.245Z"
+        "updatedAt": "2016-06-13T11:20:32.935Z"
       },
       {
         "name": "DELETE /quote/:id",
@@ -830,7 +830,7 @@
         "contributorsAuthorized": true,
         "id": 65,
         "createdAt": "2016-06-11T14:49:41.837Z",
-        "updatedAt": "2016-06-13T09:45:06.247Z"
+        "updatedAt": "2016-06-13T11:20:32.938Z"
       },
       {
         "name": "POST /quote/:parentId/:relation",
@@ -845,7 +845,7 @@
         "contributorsAuthorized": true,
         "id": 66,
         "createdAt": "2016-06-11T14:49:41.838Z",
-        "updatedAt": "2016-06-13T09:45:06.250Z"
+        "updatedAt": "2016-06-13T11:20:32.940Z"
       },
       {
         "name": "DELETE /quote/:parentId/:relation/:id",
@@ -860,7 +860,7 @@
         "contributorsAuthorized": true,
         "id": 67,
         "createdAt": "2016-06-11T14:49:41.839Z",
-        "updatedAt": "2016-06-13T09:45:06.251Z"
+        "updatedAt": "2016-06-13T11:20:32.944Z"
       },
       {
         "name": "GET /test",
@@ -874,7 +874,7 @@
         "contributorsAuthorized": true,
         "id": 75,
         "createdAt": "2016-06-11T19:57:23.445Z",
-        "updatedAt": "2016-06-13T09:45:06.254Z"
+        "updatedAt": "2016-06-13T11:20:32.946Z"
       },
       {
         "name": "GET /test/:id",
@@ -888,7 +888,7 @@
         "contributorsAuthorized": true,
         "id": 76,
         "createdAt": "2016-06-11T19:57:23.447Z",
-        "updatedAt": "2016-06-13T09:45:06.256Z"
+        "updatedAt": "2016-06-13T11:20:32.948Z"
       },
       {
         "name": "POST /test",
@@ -903,7 +903,7 @@
         "contributorsAuthorized": false,
         "id": 77,
         "createdAt": "2016-06-11T19:57:23.449Z",
-        "updatedAt": "2016-06-13T09:45:06.258Z"
+        "updatedAt": "2016-06-13T11:20:32.951Z"
       },
       {
         "name": "PUT /test/:id",
@@ -918,7 +918,7 @@
         "contributorsAuthorized": true,
         "id": 78,
         "createdAt": "2016-06-11T19:57:23.451Z",
-        "updatedAt": "2016-06-13T09:45:06.260Z"
+        "updatedAt": "2016-06-13T11:20:32.953Z"
       },
       {
         "name": "DELETE /test/:id",
@@ -932,7 +932,7 @@
         "contributorsAuthorized": true,
         "id": 79,
         "createdAt": "2016-06-11T19:57:23.452Z",
-        "updatedAt": "2016-06-13T09:45:06.262Z"
+        "updatedAt": "2016-06-13T11:20:32.958Z"
       },
       {
         "name": "POST /test/:parentId/:relation",
@@ -947,7 +947,7 @@
         "contributorsAuthorized": true,
         "id": 80,
         "createdAt": "2016-06-11T19:57:23.454Z",
-        "updatedAt": "2016-06-13T09:45:06.265Z"
+        "updatedAt": "2016-06-13T11:20:32.961Z"
       },
       {
         "name": "DELETE /test/:parentId/:relation/:id",
@@ -962,7 +962,7 @@
         "contributorsAuthorized": true,
         "id": 81,
         "createdAt": "2016-06-11T19:57:23.456Z",
-        "updatedAt": "2016-06-13T09:45:06.267Z"
+        "updatedAt": "2016-06-13T11:20:32.963Z"
       },
       {
         "name": "GET /productprice",
@@ -976,7 +976,7 @@
         "contributorsAuthorized": true,
         "id": 82,
         "createdAt": "2016-06-12T12:53:25.731Z",
-        "updatedAt": "2016-06-13T09:45:06.144Z"
+        "updatedAt": "2016-06-13T11:20:32.826Z"
       },
       {
         "name": "GET /productprice/:id",
@@ -990,7 +990,7 @@
         "contributorsAuthorized": true,
         "id": 83,
         "createdAt": "2016-06-12T12:53:25.732Z",
-        "updatedAt": "2016-06-13T09:45:06.148Z"
+        "updatedAt": "2016-06-13T11:20:32.831Z"
       },
       {
         "name": "POST /productprice",
@@ -1005,7 +1005,7 @@
         "contributorsAuthorized": true,
         "id": 84,
         "createdAt": "2016-06-12T12:53:25.734Z",
-        "updatedAt": "2016-06-13T09:45:06.151Z"
+        "updatedAt": "2016-06-13T11:20:32.836Z"
       },
       {
         "name": "PUT /productprice/:id",
@@ -1020,7 +1020,7 @@
         "contributorsAuthorized": true,
         "id": 85,
         "createdAt": "2016-06-12T12:53:25.735Z",
-        "updatedAt": "2016-06-13T09:45:06.156Z"
+        "updatedAt": "2016-06-13T11:20:32.841Z"
       },
       {
         "name": "DELETE /productprice/:id",
@@ -1034,7 +1034,7 @@
         "contributorsAuthorized": true,
         "id": 86,
         "createdAt": "2016-06-12T12:53:25.736Z",
-        "updatedAt": "2016-06-13T09:45:06.160Z"
+        "updatedAt": "2016-06-13T11:20:32.845Z"
       },
       {
         "name": "POST /productprice/:parentId/:relation",
@@ -1049,7 +1049,7 @@
         "contributorsAuthorized": true,
         "id": 87,
         "createdAt": "2016-06-12T12:53:25.738Z",
-        "updatedAt": "2016-06-13T09:45:06.164Z"
+        "updatedAt": "2016-06-13T11:20:32.851Z"
       },
       {
         "name": "DELETE /productprice/:parentId/:relation/:id",
@@ -1064,7 +1064,7 @@
         "contributorsAuthorized": true,
         "id": 88,
         "createdAt": "2016-06-12T12:53:25.740Z",
-        "updatedAt": "2016-06-13T09:45:06.169Z"
+        "updatedAt": "2016-06-13T11:20:32.856Z"
       }
     ],
     "role_routes__route_roles": [
