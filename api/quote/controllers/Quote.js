@@ -156,7 +156,6 @@ module.exports = {
         quoteProduct: body.quoteProduct
       })
 
-
       const product = yield Product.findOne({id: body.quoteProduct});
       
       const email = yield strapi.api.email.services.email.send({
@@ -164,7 +163,7 @@ module.exports = {
         view: 'quote',
         data: Object.assign({}, entry, {product: product}),
         from: 'contact@company.com', // Sender (defaults to `strapi.config.smtp.from`).
-        to: ['willtard@gmail.com'], // Recipients list.
+        to: ['pinter@qover.me'], // Recipients list.
         subject: `Quote for : ${product.name}`
       })
 
