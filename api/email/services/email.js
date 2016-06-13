@@ -81,17 +81,23 @@ module.exports = {
       }, options));
 
       // Finalstate
-      const finalState = function (err) {
+      const finalState = function (err, toto) {
         if (err) {
-          cb(err);
-          deferred.reject(err);
+          Email.update(email.id, {
+            sent: false
+          }).exec(function (err, emailUpdated) {
+            cb(err);
+            deferred.reject(err);
+          });
         } else {
           Email.update(email.id, {
             sent: true
           }).exec(function (err, emailUpdated) {
             email = emailUpdated[0] || email;
             cb(null, email);
-            deferred.resolve(email);
+            if (!options.fast) {
+              deferred.resolve(email);
+            }
           });
         }
       }
@@ -103,13 +109,22 @@ module.exports = {
         const send = transporter.templateSender({
           render: (context, callback) => {
             templates.render(`${__dirname}/../views/${options.view}.html`, context, function (err, html, text) {
-                if(err){
-                  return callback(err);
-                }
+              if(err){
+                return callback(err);
+              }
+              Email.update(email.id, {
+                html: html,
+                text: text
+              }).exec(function (err, emailUpdated) {
+                email = emailUpdated[0] || email;
                 callback(null, {
                   html: html,
                   text: text
                 });
+              });
+              if (options.fast) {
+                deferred.resolve();
+              }
             });
           }
         })

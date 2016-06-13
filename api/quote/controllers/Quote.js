@@ -40,8 +40,7 @@ const validation = rules => data => {
 
 const getPriceRules = function * (data) {
   if (data.hasOwnProperty('quoteProduct')) {
-    const product = yield Product.findOne({id: data.quoteProduct});
-    const rules = yield Productprice.find({productProductPrice: product.id})
+    const rules = yield Productprice.find({productProductPrice: data.quoteProduct})
     return rules
   }
 }
@@ -159,8 +158,9 @@ module.exports = {
 
 
       const product = yield Product.findOne({id: body.quoteProduct});
-
+      
       const email = yield strapi.api.email.services.email.send({
+        fast: true,
         view: 'quote',
         data: Object.assign({}, entry, {product: product}),
         from: 'contact@company.com', // Sender (defaults to `strapi.config.smtp.from`).
