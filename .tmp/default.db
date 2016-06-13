@@ -1037,6 +1037,18 @@
         "id": 3,
         "createdAt": "2016-06-10T18:33:31.614Z",
         "updatedAt": "2016-06-10T18:33:50.140Z"
+      },
+      {
+        "createdAt": "2016-06-13T17:31:22.729Z",
+        "template": "default",
+        "lang": "en_US",
+        "username": "qover",
+        "email": "quovertest@gmail.com",
+        "password": "$2a$10$m84lLZ3flo1qDQcaVjuaxOSFggr.irnzN/mkxE1raWC.r3rSOjgMG",
+        "id_ref": "1",
+        "provider": "local",
+        "updatedAt": "2016-06-13T17:31:59.136Z",
+        "id": 4
       }
     ],
     "product_contributors__user_products": [
@@ -1129,6 +1141,11 @@
         "user_roles": 3,
         "role_users": 3,
         "id": 4
+      },
+      {
+        "role_users": 1,
+        "user_roles": 4,
+        "id": 5
       }
     ]
   },
@@ -1766,10 +1783,10 @@
     },
     "upload": {},
     "user": {
-      "id": 3
+      "id": 4
     },
     "role_users__user_roles": {
-      "id": 4
+      "id": 5
     },
     "produit_contributors__user_produits": {
       "id": 1
